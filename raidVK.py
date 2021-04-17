@@ -8,9 +8,6 @@ import six
 import traceback
 from vk_api.bot_longpoll import VkBotLongPoll, VkBotEventType
 
-print('''
-Подпишись на мой канал! t.me/weaknessinjection
-''')
 TOKEN = input('Введите токен вашего бота: ')
 
 vk_session = vk_api.VkApi(token=TOKEN)
